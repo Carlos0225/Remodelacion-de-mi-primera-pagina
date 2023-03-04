@@ -1,0 +1,68 @@
+li>a {
+	text-decoration: none;
+}
+.container-fluid img{
+	height: 20px;
+	margin-left: 10px;
+}
+.navbar-brand img{
+	height: 70px;
+	margin-left: 40px;
+}
+div>a{
+	text-decoration: none;
+    font-family: 'lato';
+    font-size: 20px;
+    color: white;
+}
+div>a{
+	text-decoration: none;
+    font-family: 'lato';
+    font-size: 20px;
+    color: white;
+}
+.footer{
+	margin: auto;
+}
+.footer>p{
+	color: #9b9393;
+}
+.rank{
+	width: 128px !important; 
+	height: 75px !important; 
+	margin-left: 40px !important;
+}
+.button-color{
+	color: white;
+    border-color: white;
+}
+.imgg{
+  width: 100% !important;
+  height: 90% !important;
+  display: block !important;
+  margin: auto !important;
+}
+.post-uk{
+	text-align: center !important;
+    font-family: 'Roboto',sans-serif;
+}
+.p-uk{
+    font-family: ' lato ';
+    font-size: 20px;
+}
+.forma{
+	font-size: 15px;
+	font-family: ' lato ';
+}
+.form-uk{
+	font-weight: bolder;
+}
+.footer>div>a{
+	font-size: 15px;
+}
+.requiere{
+	color: red;
+}
+p{
+	justify-content: center;
+}

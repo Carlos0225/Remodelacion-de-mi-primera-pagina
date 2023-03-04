@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!--CSS Bootstrap-->
+	<link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="CSS/contactos.css">
+
+	<title>Instituto Tecnologico</title>
+</head>
+<body>
+<div class="container-fluid">
+		<div class="row">
+			<nav class="navbar navbar-expand-md border-3 border-bottom border-primary"  class="nav">
+				<div class="col-xs-6 col-md-5">
+					<!--Logo intec-->
+					<a href="index.html" class="navbar-brand"><img src="imagenes/LOGOsinfondo.png"></a>
+				</div>
+				  <div class="col-md-2"></div>
+
+		   <div class=" col-sm-8 col-md-5">
+					  <!--Redes Sociales-->
+					  <a href="http://www.linkedin.com/school/instituto-tecnologico-de-santo-domingo/mycompany/"target="_blank"><img src="Imagenes/Linkedin.png"></a>
+					  <a href="http://www.youtube.com/user/intecrd"target="_blank"><img src="Imagenes/Youtube.png"></a>
+					  <a href="http://www.flickr.com/photos/intecrd/albums"target="_blank"><img src="Imagenes/Flickr.png"></a>
+					  <a href="http://www.instagram.com/intecrd"target="_blank"><img src="Imagenes/ig.png"></a>
+					  <a href="http://twitter.com/intecrd" target="_blank"><img src="Imagenes/twiiter.png"></a>
+					  <a href="http://www.facebook.com/intecrd" target="_blank"><img src="Imagenes/facebook.png"></a>
+					  <a href="http://outlook.office.com/mail" target="_blank"><img src="Imagenes/correo.PNG"></a>
+		   	<a href="http://www.topuniversities.com/universities/instituto-tecnologico-de-santo-domingo-intec"><img src="imagenes/rank.png" class="rank" target="_blank"></a>
+		   </div>
+		 </div>
+
+<!--NAVBAR-->
+		   <div class="row bg-dark border-3" >
+				<div class="col-lg-1"></div>
+
+				<div class="col-lg-2">
+					<a href="index.html">Historia de intec</a>
+				</div>
+				<div class="col-lg-2">
+					<a href="admisiones.html">Admisiones</a>
+				</div>
+				<div class="col-lg-2">
+					<a href="vacantes.html">Vacantes</a>
+				</div>
+				<div class="col-lg-2">
+					<a href="contactos.html">Contactos</a>
+				</div>
+				<div class="col-lg-3">
+					    <form class="d-flex">
+								<input class="form-control me-2" type="search" placeholder="Search" bg-dark aria-label="Search">
+								<button class="btn btn-outline-success button-color" type="submit" >Search</button>
+							</form>
+						</div>
+				</div>
+		 </div>
+		</nav>
+	</div>
+	<br>
+
+
+
+
+<!--FORMULARIO-->
+<div class="container-fluid" style="background-color:#e7e7e7 !important;">	
+	<div class="row">
+		<div class="col-lg-4 sola">
+			<img src="imagenes/laura.png">
+		</div>
+		<div class="col-lg-8 align-self-center ">
+			<h1>Si necesitas ayuda, ¡Escríbenos!</h1>
+			<p>
+				Nuestro objetivo es brindar un servicio ejemplar a nuestras comunidad. ¡Estamos aquí para ayudarte!
+			</p>
+			<div class="form-description">
+				<h2>PREGÚNTALE A LAURA</h2>
+			</div>
+			
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="well well-sm">
+                <form action="mailto:instituto-tecnologico-de-santo-domingo@gmail.com?subject=Formulario" class="form-horizontal" method="post" enctype="text/plain">
+                    <fieldset>
+                                <div class="row"> 
+
+<!--COLUMNA 1--> 
+                                	<div class="col-lg-6">
+                                		<div class="form-group">
+			                            	<span class="col-md-1 col-md-offset-2 text-center form-description"><i>Nombre completo:<b class="requiere">*</b></i></span>
+			                            	<div class="col-md-10 info">
+			                                	<input id="Nombre" name="Nombre" type="text" placeholder="Nombre" class="form-control">
+			                            </div>
+			                        	<div class="form-group">
+			                           			 <span class="col-md-1 col-md-offset-2 text-center form-description"><i>Numero telefonico:<b class="requiere">*</b></i></span>
+			                            <div class="col-md-10 info">
+			                            	<input id="Phone" name="Phone" type="text" placeholder="Phone" class="form-control">
+			                            </div>
+			                        </div>
+			                        <br>
+			                        <div class="form-group">
+			                        		<span class="col-md-1 col-md-offset-2 text-center form-description"><i>Que tipo de servicio deseas?</i></span>
+			                        		<div class="col-md-10 info"></div>
+			                        		<div class="radio">
+				                        		<label>
+				                        			<input type="radio" name="Deseas" id="Servicios" value="Un Servicio">
+				                        		</label>
+			                        			<span class="col-md-1 col-md-offset-2 text-center form-description"><i>Un Servicio:<b class="requiere">*</b></i></span>
+			                        		</div>
+			                        		<div class="radio">
+				                        		<label>
+				                        			<input type="radio" name="Deseas" id="Consulta" value="Una Consulta" checked>   	
+				                        		</label>
+			                        			<span class="col-md-1 col-md-offset-2 text-center form-description"><i>Una Consulta:<b class="requiere">*</b></i></span>
+			                        			<br>
+			                        		<div class="form-group info">
+			                        			<span class="col-md-1 col-md-offset-2 text-center form-description"><i>Cuentenos:<b class="requiere">*</b></i></span>
+			                        			<br>
+			                            	<label>
+			                        	        <textarea class="form-control" id="Comentarios" name="Comentarios" rows="3">
+			                        			</textarea>
+			                        		</label>
+			                            </div>
+			                        	</div>
+			                        </div>
+			                    </div>
+                                		
+
+
+
+<!--COLUMNA 2-->
+                                	</div>  
+                                	<div class="col-lg-6">
+                                		<div class="form-group">
+			                            	<span class="col-md-1 col-md-offset-2 text-center"><i>ID:<b class="requiere">*</b></i></span>
+			                            	<div class="col-md-10 info">
+			                                	<input id="ID" name="ID" type="text" placeholder="ID" class="form-control"></div>
+			                            </div>
+			                        <div class="form-group">
+			                            <span class="col-md-1 col-md-offset-2 text-center form-description"><i>Email:<b class="requiere">*</b></i></span>
+			                            <div class="col-md-10 info">
+			                            	<input id="Email" name="Email" type="text" placeholder="Email" class="form-control">
+			                            </div>
+			                        </div>
+			                        <br>
+			                        <div class="form-group">
+			                        	<div class="radio info">
+			                        		<label>
+			                        			<input type="radio" name="Deseas" id="Solicitudes" value="Solicitudes">
+			                        		</label>
+			                        			<span class="col-md-1 col-md-offset-2 text-center form-description"><i>Una Solicitud:<b class="requiere">*</b></i></span>
+			                        	</div>
+			                        </div>
+                                  </div> 
+                                </div>
+                    </fieldset>
+                    <button type="submit" class="btn btn-light">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+
+
+
+
+<!--OTRAS INFORMACIONES-->
+<div class="container-fluid">
+<div class="row bg-light  info">
+	<div class="col-md-1"></div>
+	<div class="col-md-6">
+		<h5>Llámanos para asistirte. <strong>Tel.: 809-567-9271</strong></h5>
+		<div class="ol">
+			<ul class="list-group">
+				<li class="list-group-item">Opción 1: Informaciones.</li>
+				<li class="list-group-item">Opción 2: Solicitudes.</li>
+				<li class="list-group-item">Opción 3: Pagos.</li>
+				<li class="list-group-item">Opción 8: Reclamaciones de nuestros servicios.</li>
+			</ul>
+		</div>
+<br>
+
+		<b>
+			Nuestro horario de atención es de lunes a viernes de 8:00 a.m. a 8:00 p.m., sábados de 8:00 a.m. a 12:00 p.m.
+		</b>
+
+		<h5 class="info">Opciones adicionales de comunicación:</h5>
+			<ul class="list-group">
+				<li class="list-group-item">Pregúntale a Laura por WhatsApp : 809-715-3245</li>
+				<li class="list-group-item">Correo: <a href="mailto:servicio@intec.edu.do">servicio@intec.edu.do</a></li>
+				<li class="list-group-item">Chat Bot: 849-720-0830 opción 3</li>
+			</ul>
+		</div>
+	<div class="col-md-3">
+		<h5 class="info">
+			Otras Informaciones
+		</h5>
+		<ul class="list-group">
+			<li class="list-group-item list-uk">
+				<a href="https://www.intec.edu.do/acerca-de-intec/datos-e-historia/documentos-institucionales">Reglamentos</a>
+			</li>
+			<li class="list-group-item list-uk">
+				<a href="http://formularios.intec.edu.do/vi">Cita con Coordinador(a)</a>
+			</li>
+			<li class="list-group-item list-uk">
+				<a href="http://www.intec.edu.do/estudiantes/calendarios">Calendarios</a>
+			</li>
+		</ul>
+	</div>
+	<div class="col-md-1"></div>
+	</div>
+	  	
+	</div>
+</div>
+</div>
+
+<br>
+<!--FOOTER-->
+		   <div class="row bg-dark border-3 footer" style="background-image: url(Imagenes/footer-bg-pattern.jpg);">
+
+				<div class="col-lg-2">
+					<a href="index.html">Historia de intec</a>
+				</div>
+				<div class="col-lg-3">
+					<a href="http://www.intec.edu.do/condiciones-de-servicio" target="_blank">Condiciones de Servicios</a>
+				</div>
+				<div class="col-lg-3">
+				<a href="http://www.intec.edu.do/politicas-de-privacidad" target="_blank">Politicas de Privacidad</a>
+				</div>
+				<div class="col-lg-2">
+					<a href="vacantes.html">Vacantes</a>
+				</div>
+				<div class="col-lg-2">
+					<a href="contactos.html">Contactos</a>
+				</div>
+			<p>
+				Instituto Tecnológico de Santo Domingo. • Tel.: (809) 567-9271 • Dirección: Avenida de Los Próceres #49, Los Jardines del Norte 10602, Santo Domingo, República Dominicana • Apartado postal 342-9 y 249-2.
+			</p>
+			</div>
+<!-- Js bootstrap-->
+<script src="js/bootstrap.bundle.min.js">
+</script>
+</body>
+</html>
+	
